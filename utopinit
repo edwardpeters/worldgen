@@ -1,0 +1,11 @@
+#load "graphics.cma";;
+#mod_use "lib/location.ml";;
+#mod_use "lib/util.ml";;
+#mod_use "lib/story.ml";;
+#mod_use "lib/storyBase.ml";;
+#mod_use "lib/playground.ml";;
+#mod_use "lib/graphMap.ml";;
+#mod_use "lib/drawBoard.ml";;
+#mod_use "lib/simulation.ml";;
+#mod_use "lib/grid.ml";;
+#mod_use "lib/tectonics.ml";;

@@ -1,0 +1,49 @@
+Okay, we have to do this because otherwise we go crazy.
+
+Trade'Raid? 
+Inn management? 
+Deck builder?
+
+I guess all three. 
+
+Okay: You have been given a charter to manage the local area. 
+
+What does that mean?
+
+That means threats come in, and you respond appropriately.
+
+What's in, what's a threat, what is a response and what makes one appropriate?
+
+In: A graph over some geography. Really, start with random map generation and go from there.
+
+Threat: Monsters start walking the world. The can pass through, or settle down. Same with tribes. (LOTS to that. Start simple.)
+
+Response: Send an adventurer? A party? Sure, I guess.
+
+Appropriate:
+  Under-reaction leads to failures - disharmony, loss of lives, etc.
+
+
+Okay, so the simplest graph:
+
+Locations linked by distance, sure 
+
+We can draw that, even. Woo. It's hideous, but we made it.
+
+Do we want to stay pure functional, given the lack of multithreading? Or go branch by branch?
+
+Branch by branch, you anchole. Don't fall down tha twell again.
+
+Okay, grid time.
+
+For now, each grid square can be:
+  Mountain
+  Forest
+  Desert
+  Town
+  Hills
+  Field
+  Ocean
+  Lake
+
+
