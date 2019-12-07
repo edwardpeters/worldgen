@@ -57,9 +57,9 @@ module Grid(S : Size) : sig
   end
 
   val grid : t
-  val random : t -> loc_t
+  val random : unit -> loc_t
   val string_of_loc : loc_t -> string
-  val distance : t -> loc_t -> loc_t -> float
+  val distance : loc_t -> loc_t -> float
   val neighbors : loc_t -> loc_t list
   val orth_neighbors : loc_t -> loc_t list
 end = struct
@@ -78,7 +78,7 @@ end = struct
     type t = N | E | S | W | SE | SW | NE | NW
   end
 
-  let random _ = (Random.int length),(Random.int length) 
+  let random () = (Random.int length),(Random.int length) 
 
   let wrap loc = 
     let rec helper i = 
@@ -96,7 +96,7 @@ end = struct
     let x, y = loc in
     String.concat ["("; string_of_int x; "),("; string_of_int y; ")"]
 
-  let distance _ loc1 loc2 = 
+  let distance loc1 loc2 = 
     let wrap = (fun (a':int) (b':int) ->
       min
         (abs (a'- b'))

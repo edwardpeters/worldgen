@@ -1,35 +1,8 @@
-(** @canonical Lib.Card *)
-module Card = Lib__Card
-
-(** @canonical Lib.DrawBoard *)
-module DrawBoard = Lib__DrawBoard
-
-(** @canonical Lib.GraphMap *)
-module GraphMap = Lib__GraphMap
-
 (** @canonical Lib.Grid *)
 module Grid = Lib__Grid
 
 (** @canonical Lib.Location *)
 module Location = Lib__Location
-
-(** @canonical Lib.OldGridMap *)
-module OldGridMap = Lib__OldGridMap
-
-(** @canonical Lib.Playground *)
-module Playground = Lib__Playground
-
-(** @canonical Lib.Simulation *)
-module Simulation = Lib__Simulation
-
-(** @canonical Lib.Story *)
-module Story = Lib__Story
-
-(** @canonical Lib.StoryBase *)
-module StoryBase = Lib__StoryBase
-
-(** @canonical Lib.TeachVenus *)
-module TeachVenus = Lib__TeachVenus
 
 (** @canonical Lib.Tectonics *)
 module Tectonics = Lib__Tectonics
